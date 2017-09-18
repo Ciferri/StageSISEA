@@ -38,6 +38,8 @@ class MaFenetre : public QWidget
 		
 	public slots :
 		void indexChanged(int value);
+		int m_ncol,m_nrow,m_simTime;
+		void monSlot();
 };
  
 #endif
